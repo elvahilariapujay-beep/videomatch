@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VideoMatch - Conecta Editores y Clientes</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VideoMatch</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
 <header>
-    <nav>
-        <img src="logo.png" class="logo">
+    <nav class="navbar">
+        <div class="logo">
+            <img id="vm-logo" src="logo.png" alt="VideoMatch Logo">
+            <span>VideoMatch</span>
+        </div>
         <ul>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="portafolios.html">Portafolios</a></li>
-            <li><a href="unete.html">Únete como Editor</a></li>
-            <li><a href="sobre.html">Sobre Videomatch</a></li>
+            <li><a href="portafolio/index.html">Portafolio</a></li>
+            <li><a href="unete/index.html">Únete</a></li>
+            <li><a href="sobre/index.html">Sobre</a></li>
         </ul>
     </nav>
-
-    <div class="hero">
-        <h1>Conecta con los mejores editores</h1>
-        <p>VideoMatch te ayuda a encontrar talento real para tus proyectos audiovisuales.</p>
-        <a href="unete.html" class="btn">Únete como Editor</a>
-    </div>
 </header>
 
-<section class="features">
-    <div class="feature">
-        <h2>🎬 Editores Profesionales</h2>
-        <p>Accede a un catálogo de editores con experiencia y estilo propio.</p>
-    </div>
+<section class="hero">
+    <h1>Edición profesional. Creatividad sin límites.</h1>
+    <p>VideoMatch convierte tus ideas en contenido épico para redes sociales.</p>
+    <a class="btn" href="unete/index.html">Únete como Editor</a>
+</section>
 
-    <div class="feature">
-        <h2>⚡ Entregas Rápidas</h2>
-        <p>Publica tu proyecto y recibe propuestas rápidamente.</p>
-    </div>
-
-    <div class="feature">
-        <h2>💬 Comunicación Directa</h2>
-        <p>Chatea, negocia y coordina directamente con el editor.</p>
+<section class="services">
+    <h2>¿Qué hacemos?</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Edición Vertical</h3>
+            <p>Contenido optimizado para TikTok, Reels y Shorts.</p>
+        </div>
+        <div class="card">
+            <h3>Motion Graphics</h3>
+            <p>Animaciones modernas, transiciones y efectos épicos.</p>
+        </div>
+        <div class="card">
+            <h3>Contenido Corporativo</h3>
+            <p>Videos profesionales para empresas, startups y proyectos.</p>
+        </div>
     </div>
 </section>
 
 <footer>
-    <p>© 2026 VideoMatch — Todos los derechos reservados</p>
+    <p>© 2026 VideoMatch — Todos los derechos reservados.</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
