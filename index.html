@@ -3,201 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VideoMatch - Edición Creativa</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            background: #0a0014;
-            color: white;
-        }
-
-        /* Navegación */
-        header {
-            width: 100%;
-            padding: 20px 40px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            top: 0;
-            z-index: 1000;
-            background: rgba(20, 0, 40, 0.7);
-            backdrop-filter: blur(10px);
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 28px;
-            background: linear-gradient(45deg, #d06bff, #7b00ff);
-            -webkit-background-clip: text;
-            color: transparent;
-        }
-
-        nav a {
-            margin-left: 20px;
-            text-decoration: none;
-            color: #e0b3ff;
-            transition: 0.3s;
-        }
-
-        nav a:hover {
-            color: white;
-        }
-
-        /* Hero */
-        .hero {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 0 20px;
-            background: radial-gradient(circle at top, #4c0a84, #0a0014);
-        }
-
-        .hero img {
-            width: 230px;
-            animation: float 3s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(-12px); }
-            100% { transform: translateY(0); }
-        }
-
-        .hero h2 {
-            font-size: 42px;
-            margin-top: 20px;
-        }
-
-        .hero p {
-            width: 60%;
-            max-width: 600px;
-            color: #e7c9ff;
-        }
-
-        .btn {
-            margin-top: 25px;
-            padding: 14px 28px;
-            font-size: 18px;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 8px;
-            background: linear-gradient(45deg, #9b3dff, #d06bff);
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            transform: scale(1.05);
-        }
-
-        /* Secciones */
-        section {
-            padding: 100px 40px;
-            max-width: 900px;
-            margin: auto;
-        }
-
-        h3 {
-            font-size: 34px;
-            color: #d9a6ff;
-        }
-
-        .card {
-            background: rgba(255,255,255,0.05);
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 12px;
-            border: 1px solid rgba(255,255,255,0.1);
-        }
-
-        /* WhatsApp */
-        .whatsapp {
-            position: fixed;
-            bottom: 25px;
-            right: 25px;
-            background: #25d366;
-            padding: 15px;
-            border-radius: 50%;
-            color: white;
-            font-size: 28px;
-            text-decoration: none;
-            animation: pulse 1.5s infinite;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.15); }
-            100% { transform: scale(1); }
-        }
-    </style>
+    <title>VideoMatch - Conecta Editores y Clientes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
 <header>
-    <h1>VideoMatch</h1>
     <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#editores">Únete</a>
-        <a href="#contacto">Contacto</a>
+        <img src="logo.png" class="logo">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="portafolios.html">Portafolios</a></li>
+            <li><a href="unete.html">Únete como Editor</a></li>
+            <li><a href="sobre.html">Sobre Videomatch</a></li>
+        </ul>
     </nav>
+
+    <div class="hero">
+        <h1>Conecta con los mejores editores</h1>
+        <p>VideoMatch te ayuda a encontrar talento real para tus proyectos audiovisuales.</p>
+        <a href="unete.html" class="btn">Únete como Editor</a>
+    </div>
 </header>
 
-<div id="inicio" class="hero">
-    <img src="videomatch.jpeg" alt="Logo VideoMatch">
-    <h2>Edición Creativa para tus Ideas</h2>
-    <p>Transformamos tus videos con estilo profesional, efectos modernos y un toque juvenil pensado para destacar.</p>
-    <a href="https://wa.me/51955580621" target="_blank">
-        <button class="btn">Contáctanos por WhatsApp</button>
-    </a>
-</div>
+<section class="features">
+    <div class="feature">
+        <h2>🎬 Editores Profesionales</h2>
+        <p>Accede a un catálogo de editores con experiencia y estilo propio.</p>
+    </div>
 
-<section id="sobre">
-    <h3>¿Qué es VideoMatch?</h3>
-    <div class="card">
-        Somos una plataforma creativa dedicada a conectar creadores con editores talentosos de toda Latinoamérica.  
-        Apostamos por un estilo moderno, profesional y juvenil que resalta cada proyecto.
+    <div class="feature">
+        <h2>⚡ Entregas Rápidas</h2>
+        <p>Publica tu proyecto y recibe propuestas rápidamente.</p>
+    </div>
+
+    <div class="feature">
+        <h2>💬 Comunicación Directa</h2>
+        <p>Chatea, negocia y coordina directamente con el editor.</p>
     </div>
 </section>
 
-<section id="servicios">
-    <h3>Servicios</h3>
-    <div class="card">
-        ✔ Edición de videos profesionales<br>
-        ✔ Reels para Instagram y TikTok<br>
-        ✔ Intros animadas<br>
-        ✔ Edición cinematográfica<br>
-        ✔ Videos para negocios y creadores<br>
-    </div>
-</section>
-
-<section id="editores">
-    <h3>Únete como editor</h3>
-    <div class="card">
-        ¿Eres editor y quieres recibir clientes?  
-        En VideoMatch puedes unirte, mostrar tu trabajo y crecer en comunidad creativa.
-    </div>
-</section>
-
-<section id="contacto">
-    <h3>Contáctanos</h3>
-    <div class="card">
-        Escríbenos por WhatsApp:  
-        <strong>+51 955 580 621</strong>
-    </div>
-</section>
-
-<!-- Botón WhatsApp flotante -->
-<a class="whatsapp" href="https://wa.me/51955580621" target="_blank">💬</a>
+<footer>
+    <p>© 2026 VideoMatch — Todos los derechos reservados</p>
+</footer>
 
 </body>
 </html>
