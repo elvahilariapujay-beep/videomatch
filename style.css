@@ -1,0 +1,121 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0e001a;
+    color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #1a0033;
+    box-shadow: 0 0 15px #5a00ff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #d9c2ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #9d4dff;
+}
+
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+    animation: logoJump 4s infinite ease-in-out;
+}
+
+/* Animación del logo */
+@keyframes logoJump {
+    0% { transform: rotate(0deg) translateY(0); }
+    25% { transform: rotate(20deg) translateY(-10px); }
+    50% { transform: rotate(-20deg) translateY(0); }
+    75% { transform: rotate(10deg) translateY(-5px); }
+    100% { transform: rotate(0deg) translateY(0); }
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(#1a0033, #0e001a);
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #d9a6ff;
+}
+
+.hero p {
+    color: #c6a4ff;
+    font-size: 20px;
+}
+
+.btn {
+    background: #9d4dff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #b97aff;
+}
+
+/* SERVICES */
+.services {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1a0033;
+    padding: 20px;
+    border-radius: 12px;
+    width: 280px;
+    box-shadow: 0 0 15px #350080;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #6e00ff;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a0033;
+    font-size: 14px;
+}
