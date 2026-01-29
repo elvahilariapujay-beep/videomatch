@@ -118,4 +118,62 @@ footer {
     padding: 20px;
     background: #1a0033;
     font-size: 14px;
+}:root {
+  --morado: #6D28D9;
+  --morado-oscuro: #4C1D95;
+  --gris-oscuro: #111827;
+  --gris-claro: #E5E7EB;
+  --blanco: #FFFFFF;
+  --verde-wsp: #25D366;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(90deg, var(--morado), var(--morado-oscuro));
+}
+
+.header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  height: 55px;
+}
+
+.hero {
+  padding: 110px 20px;
+  text-align: center;
+  background: radial-gradient(circle, #7C3AED, #1F2933);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 34px;
+  background: var(--verde-wsp);
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
 }
