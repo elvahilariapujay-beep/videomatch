@@ -228,3 +228,11 @@ footer {
   font-size: 1.3rem;
   max-width: 700px;
 }
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
