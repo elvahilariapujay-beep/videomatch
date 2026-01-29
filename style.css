@@ -208,3 +208,23 @@ footer {
   margin-bottom: 10px;
   font-size: 1.05rem;
 }
+.hero {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #6D28D9, #1F2937);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  max-width: 900px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  max-width: 700px;
+}
