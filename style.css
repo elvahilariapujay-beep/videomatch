@@ -248,7 +248,8 @@ footer {
 }
 
 .card {
-  background: white;
+  background: #ffffff;
+  color: #1f2937; /* texto oscuro visible */
   padding: 30px;
   border-radius: 18px;
   text-align: center;
