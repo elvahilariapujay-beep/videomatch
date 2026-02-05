@@ -456,9 +456,17 @@ h1, h2, h3 {
 .portfolio-grid {
   padding-bottom: 80px;
 }
-section {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 60px 25px;
-  text-align: center;
+
+/* ===== FIX DEFINITIVO DE CENTRADO ===== */
+
+section,
+.section,
+.page-header,
+.card {
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  text-align: center !important;
 }
