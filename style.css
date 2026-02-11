@@ -518,3 +518,85 @@ section,
   transform: translateY(-4px);
   box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
+/* ====== LAYOUT GENERAL ====== */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ====== HERO ====== */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+/* ====== BOTONES HERO ====== */
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-editor {
+  background: #111;
+  color: #fff;
+}
+
+.btn-cliente {
+  background: #f5f5f5;
+  color: #111;
+  border: 2px solid #111;
+}
+
+/* ====== SECCIÓN FEATURES ====== */
+.features {
+  padding: 80px 20px;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+/* ====== TARJETAS ====== */
+.card {
+  background: #ffffff;
+  color: #111111;
+  padding: 30px;
+  border-radius: 18px;
+  text-align: center;
+  font-size: 1.05rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
