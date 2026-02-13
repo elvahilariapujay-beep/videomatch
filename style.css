@@ -653,3 +653,20 @@ section,
   color: #444;
   line-height: 1.6;
 }
+.legal-page {
+  padding: 60px 20px;
+}
+
+.legal-page h1 {
+  margin-bottom: 20px;
+}
+
+.legal-page h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.legal-page p {
+  color: #444;
+  line-height: 1.7;
+}
