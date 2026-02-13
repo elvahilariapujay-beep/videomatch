@@ -636,3 +636,20 @@ section,
 .editor-card:hover {
   transform: translateY(-8px);
 }
+.info-pago {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #f8f9fb;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.info-pago h2 {
+  margin-bottom: 15px;
+}
+
+.info-pago p {
+  color: #444;
+  line-height: 1.6;
+}
