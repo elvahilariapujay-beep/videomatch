@@ -690,3 +690,29 @@ editor-profile {
   margin: 0 auto 40px;
   line-height: 1.6;
 }
+.site-header {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.logo-container {
+  display: inline-block;
+  animation: logoFade 1.2s ease-out forwards;
+}
+
+.logo {
+  max-width: 220px;
+  height: auto;
+}
+
+/* Animación */
+@keyframes logoFade {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
