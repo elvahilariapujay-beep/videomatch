@@ -717,3 +717,7 @@ editor-profile {
 .logo:hover {
   transform: scale(1.08);
 }
+.logo {
+  border: 5px solid red !important;
+  height: 150px !important;
+}
