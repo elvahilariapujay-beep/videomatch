@@ -701,8 +701,9 @@ editor-profile {
 }
 
 .logo {
-  max-width: 220px;
-  height: auto;
+  height: 90px;   
+  width: auto;
+  transition: transform 0.6s ease;
 }
 
 /* Animación */
