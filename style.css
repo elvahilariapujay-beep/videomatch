@@ -700,26 +700,29 @@ editor-profile {
   animation: logoFade 1.2s ease-out forwards;
 }
 
+/* LOGO VIDEOMATCH */
 .logo {
-  height: 90px;
+  height: 120px;
   width: auto;
   opacity: 0;
-  transform: scale(0.5) rotate(-20deg);
-  animation: logoIntro 1.5s ease-out forwards;
+  transform: translateY(-30px) scale(0.8);
+  animation: logoIntro 1.2s ease-out forwards;
 }
 
+/* Animación de entrada */
 @keyframes logoIntro {
-  to {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.8);
+  }
+  100% {
     opacity: 1;
-    transform: scale(1) rotate(0deg);
+    transform: translateY(0) scale(1);
   }
 }
+
+/* Efecto elegante al pasar el mouse */
 .logo:hover {
   transform: scale(1.08);
+  transition: transform 0.3s ease;
 }
-.logo {
-  border: 5px solid red !important;
-  height: 150px !important;
-}
-Source: main
-Folder: /root 
