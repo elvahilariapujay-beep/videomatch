@@ -1,21 +1,72 @@
 /* General */
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #0e001a;
-    color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  text-align: center;
 }
 
-/* NAVBAR */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background: #1a0033;
-    box-shadow: 0 0 15px #5a00ff;
+/* HEADER */
+.header {
+  padding: 20px;
 }
 
+.logo {
+  width: 120px;
+  animation: flotar 3s ease-in-out infinite;
+}
+
+/* ANIMACIÓN */
+@keyframes flotar {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* HERO */
+.hero {
+  margin-top: 50px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #cbd5f5;
+  margin-bottom: 30px;
+}
+
+/* BOTONES */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  background: #3b82f6;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #2563eb;
+}
+
+.btn-secundario {
+  background: #22c55e;
+}
+
+.btn-secundario:hover {
+  background: #16a34a;
+}
 .navbar ul {
     list-style: none;
     display: flex;
